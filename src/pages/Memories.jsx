@@ -38,7 +38,7 @@ const Memories = ({ isIOS }) => {
           </h2>
 
           <div className="text-left text-pink-800 space-y-4 leading-relaxed">
-           <motion.p
+            <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.6 }}
@@ -95,7 +95,6 @@ const Memories = ({ isIOS }) => {
               Terima kasih yaa, dan selamat ulang tahun Ais 💖{" "}
               <span className="italic">Aku tetap mencintaimu</span>
             </motion.p>
-
           </div>
         </motion.div>
 
@@ -202,14 +201,15 @@ const Memories = ({ isIOS }) => {
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 3.0 }}
-      className="text-center text-rose-700 mt-4 text-lg leading-relaxed"
+      className="text-center text-pink-700 mt-4 text-base leading-relaxed"
     >
-     ✨Dan satu lagi ais, Aku juga mau jujur tentang perasaanku… Aku nggak mau kita cuma jalan tanpa arah.
-Kalau kamu siap untuk melangkah lebih serius, aku dengan senang hati akan nemenin kamu ke sana 💍.
-Tapi kalau kamu masih ingin santai dulu, aku juga tetap sabar nunggu…
-Karena bagiku, kamu tetap orang yang ingin aku perjuangkan sampai waktunya tiba 🤍
+      Dan satu lagi, Ais… aku ikut kamu maunya gimana tentang hubungan ini. 
+      Kalau mau dilanjut ke yang lebih serius ayo, kalau masih mau sekadar main-main dan ingin santai dulu
+      juga nggak apa-apa, aku tetap sabar menunggu. Dan aku tetep ngajak kamu ke arah yang lebih serius, 
+      sampai kamu siap. ❤️
     </motion.p>
   </>
+)}
       </motion.div>
     </div>
   );
