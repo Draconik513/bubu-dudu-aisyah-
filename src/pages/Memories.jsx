@@ -39,44 +39,62 @@ const Memories = ({ isIOS }) => {
 
           <div className="text-left text-pink-800 space-y-4 leading-relaxed">
            <motion.p
-  initial={{ opacity: 0, y: 20 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 1, delay: 1.2 }}
->
-  Maaf kalau selama ini ngeganggu kehidupan kamu, belum jadi yang
-  terbaik menurut kamu, kadang buat kamu kecewa, kadang aku ovt-an.
-  Maaf kalau kadang aku bikin kamu kecewa, salah paham, atau merasa
-  sendiri 😢. Aku nggak pernah berniat nyakitin kamu 🫂. Semua itu
-  karena aku manusia biasa yang masih belajar jadi lebih baik lagi.
-</motion.p>
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.6 }}
+            >
+              🙏 <strong>Maaf ya, Ais…</strong>
+            </motion.p>
 
-<motion.p
-  initial={{ opacity: 0, y: 20 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 1, delay: 1.8 }}
->
-  Aku ikut kamu maunya gimana tentang hubungan ini, mau lanjut lebih
-  serius atau sekadar main aja. Tapi aku tetap ngajak kamu ke arah
-  yang lebih serius sampai kamu siap.
-</motion.p>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 1.2 }}
+            >
+              Maaf kalau selama ini ngeganggu kehidupan kamu, belum jadi yang
+              terbaik menurut kamu, kadang buat kamu kecewa, kadang aku ovt-an.
+              Maaf kalau kadang aku bikin kamu kecewa, salah paham, atau merasa
+              sendiri 😢. Aku nggak pernah berniat nyakitin kamu 🫂. Semua itu
+              karena aku manusia biasa yang masih belajar jadi lebih baik lagi.
+            </motion.p>
 
-<motion.p
-  initial={{ opacity: 0, y: 20 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 1, delay: 2.4 }}
->
-  Terima kasih sudah membiarkan aku mengisi waktu luang kamu. Aku
-  akan terus belajar jadi lebih baik lagi.
-</motion.p>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 1.8 }}
+            >
+              Terima kasih sudah membiarkan aku mengisi waktu luang kamu. Aku
+              akan terus belajar jadi lebih baik lagi.
+            </motion.p>
 
-<motion.p
-  initial={{ opacity: 0, y: 20 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 1, delay: 3.6 }}
->
-  Terima kasih yaa, dan selamat ulang tahun Ais 💖{" "}
-  <span className="italic">(Aku tetap mencintaimu)</span>
-</motion.p>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 2.4 }}
+            >
+              Maaf kalo aku suka kepikiran, karena aku bingung dengan sikapmu
+              yang aku rasa mulai berubah— entah karena sudah ada orang baru
+              atau karena kerjaanmu, aku nggak tahu. Aku selalu memaklumi
+              hal-hal seperti itu kalau memang itu alasannya.
+            </motion.p>
+
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 3.0 }}
+            >
+              Karena kebahagiaanmu ya kebahagiaanku juga. Katakan aja kalau aku
+              masih diperbolehkan ada di hidupmu.
+            </motion.p>
+
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 3.6 }}
+            >
+              Terima kasih yaa, dan selamat ulang tahun Ais 💖{" "}
+              <span className="italic">Aku tetap mencintaimu</span>
+            </motion.p>
 
           </div>
         </motion.div>
@@ -168,17 +186,30 @@ const Memories = ({ isIOS }) => {
           </motion.div>
         )}
 
-        {flowerBloom && (
-          <motion.p
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 2.2 }}
-            className="text-center text-pink-600 mt-6 italic text-lg"
-          >
-            🌸 Bunga ini sebagai tanda maafku… Semoga bisa sedikit ngeganti rasa
-            kecewa atau nggak enak yang pernah aku buat. Tolong diterima ya 🤍
-          </motion.p>
-        )}
+       {flowerBloom && (
+  <>
+    <motion.p
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 2.2 }}
+      className="text-center text-pink-600 mt-6 italic text-lg"
+    >
+      🌸 Bunga ini sebagai tanda maafku… Semoga bisa sedikit ngeganti rasa
+      kecewa atau nggak enak yang pernah aku buat. Tolong diterima ya 🤍
+    </motion.p>
+
+    <motion.p
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 3.0 }}
+      className="text-center text-rose-700 mt-4 text-lg leading-relaxed"
+    >
+     ✨Dan satu lagi ais, Aku juga mau jujur tentang perasaanku… Aku nggak mau kita cuma jalan tanpa arah.
+Kalau kamu siap untuk melangkah lebih serius, aku dengan senang hati akan nemenin kamu ke sana 💍.
+Tapi kalau kamu masih ingin santai dulu, aku juga tetap sabar nunggu…
+Karena bagiku, kamu tetap orang yang ingin aku perjuangkan sampai waktunya tiba 🤍
+    </motion.p>
+  </>
       </motion.div>
     </div>
   );
