@@ -83,8 +83,7 @@ const Memories = ({ isIOS }) => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 3.0 }}
             >
-              Karena kebahagiaanmu ya kebahagiaanku juga. Katakan aja kalau aku
-              masih diperbolehkan ada di hidupmu.
+             Karena kebahagiaanmu ya kebahagiaanku juga. Dan aku sadar, komunikasi itu penting supaya kita tetap ngerti satu sama lain. Katakan aja kalau aku masih diperbolehkan ada di hidupmu.
             </motion.p>
 
             <motion.p
